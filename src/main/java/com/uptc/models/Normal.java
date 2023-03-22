@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Normal {
     private double average;
-    private double deviation;
+    private double desviation;
     private List<Double> aleatory;
     private List<Double> seeds;
 
@@ -20,8 +20,8 @@ public class Normal {
     public Normal(int quantity, Interval inte, List<Double> aleatoryXi) {
         this.average = inte.getAverage();
         System.out.println(average);
-        this.deviation = inte.getDeviation();
-        System.out.println(deviation);
+        this.desviation = inte.getDeviation();
+        System.out.println(desviation);
         this.seeds = aleatoryXi;
     }
 
@@ -37,7 +37,7 @@ public class Normal {
 
     private void generateRandom() {
         for (Double x : seeds) {
-            aleatory.add(new NormalDistribution(average, deviation).inverseCumulativeProbability(x));
+            aleatory.add(new NormalDistribution(average, desviation).inverseCumulativeProbability(x));
         }
     }
 }
