@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35e25d69-f997-45c1-84e5-5610ad9fde23" name="Changes" comment="First commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/models/Linear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/models/MiddleSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/models/MultCong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/models/Normal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/models/Uniform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/utils/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/utils/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uptc/utils/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uptc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uptc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uptc/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uptc/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uptc/views/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uptc/views/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uptc/views/MethodOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uptc/views/MethodOption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/leonardo/IdeaProjects/PseudoAleatoryNumbers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679448818046</updated>
       <workItem from="1679448819359" duration="1234000" />
+      <workItem from="1679530255640" duration="767000" />
+      <workItem from="1679577478470" duration="21000" />
+      <workItem from="1679777968365" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!">
       <created>1679448946234</created>

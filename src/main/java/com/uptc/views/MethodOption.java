@@ -7,8 +7,6 @@ import java.util.List;
 public class MethodOption extends JPanel {
 
     private final Header header;
-    private NumbersTable table;
-    private PanelGraphic graphic;
     public DialogResult result;
     public MethodOption(Header header, MainWindow parent) {
         this.header = header;
@@ -20,8 +18,8 @@ public class MethodOption extends JPanel {
 
     private void initComponents(MainWindow parent) {
         this.add(header, BorderLayout.NORTH);
-        table = new NumbersTable();
-        graphic = new PanelGraphic();
+        NumbersTable table = new NumbersTable();
+        PanelGraphic graphic = new PanelGraphic();
         result = new DialogResult(parent, table, graphic);
     }
 
